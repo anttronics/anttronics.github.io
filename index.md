@@ -12,3 +12,7 @@ Soon after, while getting a tour of a friend's Märklin<sup>&reg;</sup> railway 
 
 It was obvious form the start that many creative minds are better than one (or in our case, two) and so AntTronics was born. A place for a community to share, explore and eventually develop ideas that can help bring our models to life.
 
+They say the best tool for a job is the tool you are most familiar with. Coming from software development background, [Github](http://github.com){:target="_blank"} seems to be the obvious choice for such a collaborative effort, both because of the available tools such as [discussions](https://github.com/orgs/anttronics/discussions), wikis, issue tracking etc, as well as a place to publish and share the results.
+
+Most of the action will be taking place [there](https://github.com/anttronics) and these pages will be mainly used as a directory for the different ideas, as well as a place to showcase the results.
+
