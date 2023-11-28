@@ -1,1 +1,1 @@
-# AntTronics
+This is the Github Pages repository for the [AntTronics website](https://antronics.com).
