@@ -1,0 +1,39 @@
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+.smallListWrapper {
+	width: 200px;
+  display: block;
+  float: right;
+	padding-top: 1rem;
+	padding-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+	border-style: double;
+	border-radius: 1cap;
+}
+
+.smallList {
+	list-style: none;
+}
+
+.smallListItem {
+	// position: relative;
+	margin: auto auto
+
+}

@@ -1,0 +1,12 @@
+{% if page.project_name %}
+<span class="smallListWrapper">
+	<ul class="smallList">
+		{% if page.repository %}
+		<li class="smallListItem"><a href="{{ repository }}"><span>{% octicon repo height:16 %}</span><span>Repository</span></a></li>
+		{% endif %}
+		{% if page.repository %}
+		<li class="smallListItem"><a href="{{ repository }}">{% octicon repo height:16 %} Repository</a></li>
+		{% endif %}
+	</ul>
+</span>
+{% endif %}
