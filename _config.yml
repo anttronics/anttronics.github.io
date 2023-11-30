@@ -31,7 +31,27 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-octicons
+  
+collections:
+  projects:
+    output: true
+    layout: default
+  showcase:
+    output: true
+    layout: default
 
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: showcase
+    values:
+      layout: default
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
