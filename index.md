@@ -8,7 +8,7 @@ layout: default
 - *"I would like flashing lights for my police cars"*
 - *"It would be nice to be able to..."*
 
-If you also have a wish for your model, first check if we already have a suitable solution in our [list of projects][projects]. If we don't, you can simply [submit your wish or idea][newidea] for discussion and we can work together to make it a reality.
+Do you also have an idea for your model? Then check if we already have a suitable solution in our [project list][projects]. If we don't, you can simply [submit your idea][newidea] for discussion and we can work together to make it a reality.
 
 ***
 
