@@ -1,12 +1,16 @@
 {% if page.project_name %}
-<span class="smallListWrapper">
-	<ul class="smallList">
+<div class="smallListWrapper">
+	<!-- <ul class="smallList"> -->
 		{% if page.repository %}
-		<li class="smallListItem"><a href="{{ repository }}"><span>{% octicon repo height:16 %}</span><span>Repository</span></a></li>
+		<div class="smallListItem">
+			<a class="smallListLink" href="{{ repository }}">{% octicon repo class:"mr-2" height:12 %} Repository</a>
+		</div>
 		{% endif %}
 		{% if page.repository %}
-		<li class="smallListItem"><a href="{{ repository }}">{% octicon repo height:16 %} Repository</a></li>
+		<div class="smallListItem">
+			<a class="smallListLink" href="{{ repository }}">{% octicon repo class:"mr-2" height:12 %} Long Repository</a>
+		</div>
 		{% endif %}
-	</ul>
-</span>
+	<!-- </ul> -->
+</div>
 {% endif %}

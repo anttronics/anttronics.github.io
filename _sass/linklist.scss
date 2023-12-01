@@ -17,15 +17,13 @@
 }
 
 .smallListWrapper {
-	width: 200px;
   display: block;
   float: right;
-	padding-top: 1rem;
-	padding-right: 1rem;
   margin-top: 1rem;
   margin-left: 1rem;
-	border-style: double;
-	border-radius: 1cap;
+	border-style: solid;
+	border-width: thin;
+	border-color: #ccc;
 }
 
 .smallList {
@@ -33,7 +31,26 @@
 }
 
 .smallListItem {
+	background-color: inherit;
+	padding: 0.1rem 1rem;
+	border-bottom: thin solid #eeeeee;
 	// position: relative;
-	margin: auto auto
+	// margin: auto auto
+}
+.smallListItem:hover {
+	background-color: #eee;
+}
 
+.smallListLink {
+	text-decoration: none;
+}
+
+.smallListLink:hover {
+		text-decoration: none;
+}
+
+.mr-2 {
+	margin-right: 6px;
+	// height: 14px;
+	// margin-top: 2px;
 }
