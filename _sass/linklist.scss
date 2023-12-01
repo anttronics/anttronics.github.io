@@ -17,10 +17,18 @@
 }
 
 .smallListWrapper {
-  display: block;
-  float: right;
-  margin-top: 1rem;
-  margin-left: 1rem;
+
+	@include large {
+		float: right;
+		margin-left: 1rem;
+	}
+
+  @include medium {
+		float: right;
+		margin-left: 1rem;
+	}
+
+	margin-top: 1rem;
 	border-style: solid;
 	border-width: thin;
 	border-color: #ccc;
