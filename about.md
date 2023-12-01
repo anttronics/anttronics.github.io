@@ -1,6 +1,6 @@
 ---
-layout: default
 title: About
+layout: default
 permalink: /about
 ---
 The story of the re-discovered LEGO<sup>&reg;</sup> that turns into a passion should sound familiar to a lot of people who happen to be reading this. First, trying to complete the childhood sets from the attic, then starting to add to the collection, and before long, trying to decide which room in the house will be the LEGO<sup>&reg;</sup> room.
