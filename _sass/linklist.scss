@@ -60,8 +60,21 @@
 }
 
 .projectImage {
-  max-height: 14rem;
-  max-width: 14rem;
+	@include large {
+		max-height: 14rem;
+		max-width: 14rem;
+	}
+
+  @include medium {
+		max-height: 14rem;
+		max-width: 14rem;
+	}
+
+	@include small {
+		max-height: 20rem;
+		max-width: 20rem;
+	}
+
 	margin: auto;
 	display: block;
 }
@@ -90,11 +103,28 @@
 }
 
 .pageListProjectImage {
-  max-height: 14rem;
-  max-width: 14rem;
+
+	@include large {
+		max-height: 14rem;
+		max-width: 14rem;
+		float: right;
+		padding-top: 1.8rem;
+		padding-bottom: 1.8rem;
+	}
+
+  @include medium {
+		max-height: 14rem;
+		max-width: 14rem;
+		float: right;
+		padding-top: 1.8rem;
+		padding-bottom: 1.8rem;
+	}
+
+	@include small {
+		max-height: 20rem;
+		max-width: 20rem;
+	}
+
 	margin: auto;
 	display: block;
-	float: right;
-	padding-top: 1.8rem;
-	padding-bottom: 1.8rem;
 }
