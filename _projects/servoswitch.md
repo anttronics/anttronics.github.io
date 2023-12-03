@@ -1,7 +1,7 @@
 ---
 title: ServoSwitch
 project_name: ServoSwitch
-project_image: /images/placeholder.svg
+image: /images/placeholder.svg
 repository: https://github.com/anttronics/ServoSwitch_HW
 repository_sw: https://github.com/anttronics/ServoSwitch_SW
 downloads: https://github.com/anttronics/ServoSwitch_SW

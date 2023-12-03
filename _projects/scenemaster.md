@@ -1,7 +1,7 @@
 ---
 title: SceneMaster
 project_name: SceneMaster
-project_image: /images/placeholder.svg
+image: /images/placeholder.svg
 repository: https://github.com/anttronics/SceneMaster_HW
 repository_sw: https://github.com/anttronics/SceneMaster_SW
 version: alpha

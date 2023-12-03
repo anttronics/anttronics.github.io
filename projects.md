@@ -1,18 +1,18 @@
 ---
 title: Projects
 ---
-TODO: More work still to be done...
+TODO: maybe a short project list description here?
 
 <div class="pageListWrapper">
-  {% for project in site.projects %}
+  {% for item in site.projects %}
     <div class="pageListItem">
-			<a class="pageListLink" href="{{ project.url }}">{{ project.title }}</a>
-			{% if project.project_image %}
-				<div class="pageListProjectImage">
-					<img src="{{project.project_image}}" alt="{{project.title}}" class="pageListProjectImage">
+			<a class="pageListLink" href="{{ item.url }}">{{ item.title }}</a>
+			{% if item.image %}
+				<div class="pageListImage">
+					<img src="{{item.image}}" alt="{{item.title}}" class="pageListImage">
 				</div>
 			{% endif %}
-	      {{ project.excerpt }}
+	      {{ item.excerpt }}
     </div>
   {% endfor %}
 </div>

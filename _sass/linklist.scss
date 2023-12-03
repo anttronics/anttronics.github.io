@@ -59,7 +59,7 @@
 	margin-right: 6px;
 }
 
-.projectImage {
+.pageImage {
 	@include large {
 		max-height: 14rem;
 		max-width: 14rem;
@@ -102,7 +102,7 @@
 		text-decoration: none;
 }
 
-.pageListProjectImage {
+.pageListImage {
 
 	@include large {
 		max-height: 14rem;
