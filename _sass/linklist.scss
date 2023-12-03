@@ -42,8 +42,6 @@
 	background-color: inherit;
 	padding: 0.1rem 1rem;
 	border-bottom: thin solid #eeeeee;
-	// position: relative;
-	// margin: auto auto
 }
 .smallListItem:hover {
 	background-color: #eee;
@@ -59,6 +57,44 @@
 
 .mr-2 {
 	margin-right: 6px;
-	// height: 14px;
-	// margin-top: 2px;
+}
+
+.projectImage {
+  max-height: 14rem;
+  max-width: 14rem;
+	margin: auto;
+	display: block;
+}
+
+
+.pageListWrapper {
+
+}
+
+.pageList {
+	list-style: none;
+}
+
+.pageListItem {
+	background-color: inherit;
+	border-top: thin solid #eeeeee;
+	display: table;
+}
+
+.pageListLink {
+	text-decoration: none;
+}
+
+.pageListLink:hover {
+		text-decoration: none;
+}
+
+.pageListProjectImage {
+  max-height: 14rem;
+  max-width: 14rem;
+	margin: auto;
+	display: block;
+	float: right;
+	padding-top: 1.8rem;
+	padding-bottom: 1.8rem;
 }

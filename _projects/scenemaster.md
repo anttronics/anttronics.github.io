@@ -1,11 +1,18 @@
 ---
 title: SceneMaster
 project_name: SceneMaster
+project_image: /images/placeholder.svg
 repository: https://github.com/anttronics/SceneMaster_HW
 repository_sw: https://github.com/anttronics/SceneMaster_SW
+version: alpha
+version_sw: v0.06
 ---
 
-TODO: More work still to be done...
+ 
+
+A smart little board that can control 6 light channels, play custom sounds and react to 3 sensor inputs.
+
+TODO: More work still to be done... The first paragraph seems to be picked up by the excerpt field.
 
 The story of the re-discovered LEGO<sup>&reg;</sup> that turns into a passion should sound familiar to a lot of people who happen to be reading this. First, trying to complete the childhood sets from the attic, then starting to add to the collection, and before long, trying to decide which room in the house will be the LEGO<sup>&reg;</sup> room.
 

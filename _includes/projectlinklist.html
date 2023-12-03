@@ -1,6 +1,10 @@
 {% if page.project_name %}
 <div class="smallListWrapper">
-	<!-- <ul class="smallList"> -->
+		{% if page.project_image %}
+		<div class="projectImage">
+			<img src="{{page.project_image}}" alt="{{page.title}}" class="projectImage">
+		</div>
+		{% endif %}
 		{% if page.repository %}
 		<div class="smallListItem">
 			<a class="smallListLink" href="{{ page.repository }}">{% octicon repo class:"mr-2" height:12 %} Repository</a>
@@ -26,6 +30,5 @@
 			<a class="smallListLink" href="{{ page.issues }}">{% octicon bug class:"mr-2" height:12 %} Issues</a>
 		</div>
 		{% endif %}
-	<!-- </ul> -->
 </div>
 {% endif %}
