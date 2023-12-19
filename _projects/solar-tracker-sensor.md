@@ -1,7 +1,7 @@
 ---
 title: Solar Tracker Sensor
 project_name: Solar Tracker Sensor
-# image: /images/placeholder.svg
+image: /images/projects/solartrackersensor/sts_bare.jpg
 repository: https://github.com/anttronics/SolarTrackerSensor
 issues: https://github.com/anttronics/SolarTrackerSensor/issues
 stage: alpha
@@ -29,11 +29,15 @@ The board is designed in 3 parts:
 - the "sensor" part which contains the photo-transistors and
 - the "shield" parts. 
 
+![Solar Tracker Sensor board (v0.1)](/images/projects/solartrackersensor/sts_bare.jpg)
+
 The "sensor" board has the same footprints on both sides, allowing assembly on the "N" or "S" side, depending on whether the sun will be tracked from the north or south hemisphere.
 
 It can be separated from the "logic" board and connected with wires, or it can be kept attached to the "logic" board. The traces between the boards complete all the required connections between the two boards.
 
 The "shield" parts, when soldered onto the "sensor" board, form a pyramid-shaped sun screen that cast a shadow on the photo-transistors when the panel is not correctly aligned.
+
+![Assembled Solar Tracker Sensor](/images/projects/solartrackersensor/sts_built.jpg)
 
 ### Power supply
 Even though all the components on the board could handle a higher voltage, a stable 5V DC power supply is highly recommended to ensure the reference levels for the comparator are actually effective. 
