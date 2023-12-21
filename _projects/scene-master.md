@@ -26,8 +26,8 @@ They say the best tool for a job is the tool you are most familiar with. Coming 
 
 Most of the action will be taking place [there](https://github.com/orgs/anttronics/repositories) and these pages will be mainly used as a directory for the different ideas, as well as a place to showcase the results.
 
-[scenemaster]: /projects/scene-master
-[servoswitch]: /projects/servo-switch
+[scenemaster]: /scene-master
+[servoswitch]: /servo-switch
 
 [discussions]: https://github.com/orgs/anttronics/discussions
 [repositories]: https://github.com/orgs/anttronics/repositories

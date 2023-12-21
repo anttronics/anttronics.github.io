@@ -32,14 +32,18 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-octicons
-  
+
+permalink: pretty
+
 collections:
   projects:
     output: true
     layout: default
+    permalink: /:name
   showcase:
     output: true
     layout: default
+    permalink: /:collection/:name
 
 defaults:
   - scope:

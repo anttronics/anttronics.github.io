@@ -15,8 +15,8 @@ Most of the action will be taking place there and these pages will be mainly use
 
 [projects]: /projects
 [showcase]: /showcase
-[scenemaster]: /projects/scene-master
-[servoswitch]: /projects/servo-switch
+[scenemaster]: /scene-master
+[servoswitch]: /servo-switch
 
 [discussions]: https://github.com/anttronics/anttronics.github.io/discussions
 [repositories]: https://github.com/orgs/anttronics/repositories
