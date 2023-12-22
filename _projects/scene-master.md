@@ -2,8 +2,8 @@
 title: Scene Master
 project_name: Scene Master
 image: /images/placeholder.svg
-repository: https://github.com/anttronics/SceneMaster_HW
-repository_sw: https://github.com/anttronics/SceneMaster_SW
+repository: https://github.com/anttronics/SceneMasterHW
+# repository_sw: https://github.com/anttronics/SceneMasterSW
 version: alpha
 version_sw: v0.06
 ---
@@ -22,9 +22,9 @@ Soon after, while getting a tour of a friend's Märklin<sup>&reg;</sup> railway 
 
 It was obvious form the start that many creative minds are better than one (or in our case, two) and so AntTronics was born. A place for a community to share, explore and eventually develop ideas that can help bring our models to life.
 
-They say the best tool for a job is the tool you are most familiar with. Coming from software development background, [Github](http://github.com){:target="_blank"} seems to be the obvious choice for such a collaborative effort, both because of the available tools such as [discussions][discussions], wikis, issue tracking etc, as well as a place to publish and share the results.
+They say the best tool for a job is the tool you are most familiar with. Coming from software development background, [Github](http://github.com){:target="_blank"} seems to be the obvious choice for such a collaborative effort, both because of the available tools such as [discussions][discussions]{:target="_blank"}, wikis, issue tracking etc, as well as a place to publish and share the results.
 
-Most of the action will be taking place [there](https://github.com/orgs/anttronics/repositories) and these pages will be mainly used as a directory for the different ideas, as well as a place to showcase the results.
+Most of the action will be taking place [there](https://github.com/orgs/anttronics/repositories){:target="_blank"} and these pages will be mainly used as a directory for the different ideas, as well as a place to showcase the results.
 
 [scenemaster]: /scene-master
 [servoswitch]: /servo-switch

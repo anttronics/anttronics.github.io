@@ -2,11 +2,11 @@
 title: Servo Switch
 project_name: Servo Switch
 image: /images/placeholder.svg
-repository: https://github.com/anttronics/ServoSwitch_HW
-repository_sw: https://github.com/anttronics/ServoSwitch_SW
-downloads: https://github.com/anttronics/ServoSwitch_SW
-wiki: https://github.com/anttronics/ServoSwitch_SW
-issues: https://github.com/anttronics/ServoSwitch_SW
+repository: https://github.com/anttronics/ServoSwitchHW
+# repository_sw: https://github.com/anttronics/ServoSwitchSW
+# downloads: https://github.com/anttronics/ServoSwitchSW
+# wiki: https://github.com/anttronics/ServoSwitchSW
+# issues: https://github.com/anttronics/ServoSwitchSW
 stage: alpha
 ---
 
